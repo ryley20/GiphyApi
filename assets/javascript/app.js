@@ -2,8 +2,7 @@ $(document).ready(function() {
    //Array for searched topics to be added
    var topics = [];
    
-       //Function with AJAX call to GIPHY, limit 10 results
-     //Dropping divs with still and animate attributes here 
+       //Function with AJAX call to GIPHY, limited to 10 gifs
         function displayAnimal() {
    
        var x = $(this).data("search");
