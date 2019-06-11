@@ -12,15 +12,15 @@
   <body id="wholeThing">
   <div class="jumbotron" id="header">
     <h1>AWESOME ANIMAL GIFS</h1>
-    <h4>Click the buttons for some cool animal GIFs<br>Click the GIPHYs to pause and play<br>Search to add more buttons</h4>
+    <h4>Search to add more buttons</h4>
   </div>
   <form class="form-inline" id="animalSearch">
     <div class="form-group">
       <label for="animalInput">Search </label>
-      <input type="text" id="animalInput">
+      <input type="text" id="animalInput" onfocus="this.value=''" value="search">
     </div>
     <!-- Button triggers show to be added -->
-    <input id="addAnimal" type="submit" value="submit">
+    <input id="addAnimal" type="submit" value="submit" >
   </form>
   <div class="row">
     <div class="container">

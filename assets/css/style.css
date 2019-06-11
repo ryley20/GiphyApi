@@ -1,21 +1,13 @@
 #header {
-    background-color:red;
-    color: #ffffff;
+    background-color: lightskyblue;
+    color: black;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 15px;
     font-family: "Carrois Gothic SC", sans-serif;
+    font-weight: bold;
 }
-#topImageL {
-    width: 15%;
-    float: left;
-    margin-left: 20px;
-}
-#topImageR {
-    width: 15%;
-    float: right;
-    margin-right: 20px;
-}
+
 label {
     font-size: 18px;
 }
